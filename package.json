@@ -1,0 +1,30 @@
+{
+  "name": "Mysql-node",
+  "version": "1.0.0",
+  "description": "a simple web app using mysql and node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diego994/Mysql-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diego994/Mysql-node/issues"
+  },
+  "homepage": "https://github.com/Diego994/Mysql-nodenpm in#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
